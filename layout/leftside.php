@@ -1,3 +1,9 @@
+<script>OpenMenuItem('account');</script>
+<script>OpenMenuItem('news');</script>
+<script>OpenMenuItem('community');</script>
+<script>OpenMenuItem('library');</script>
+<script>OpenMenuItem('shops');</script>
+
 <div id="MenuColumn">
 	<div id="LeftArtwork">             
 		<a href="sub.php?page=news" ><img id="TibiaLogoArtworkTop" src="layout/images/global/header/tibia-logo-artwork-top.gif" alt="logoartwork" /></a>
@@ -64,7 +70,7 @@
 						</span>
 						<div id='news_Icon' class='Icon' style='background-image:url(layout/images/global/menu/icon-news.gif);'></div>
 						<div id='news_Label' class='Label' style='background-image:url(layout/images/global/menu/label-news.gif);'></div>
-						<div id='news_Extend' class='Extend' style='background-image:url(layout/images/global/general/plus.gif);'></div>
+						<div id='news_Extend' class='Extend' style='background-image:url(layout/images/global/general/minus.gif);'></div>
 					</div>
 				</div>
 			</span>
@@ -105,7 +111,7 @@
 						</span>
 						<div id='account_Icon' class='Icon' style='background-image:url(layout/images/global/menu/icon-account.gif);'></div>
 						<div id='account_Label' class='Label' style='background-image:url(layout/images/global/menu/label-account.gif);'></div>
-						<div id='account_Extend' class='Extend' style='background-image:url(layout/images/global/general/plus.gif);'></div>
+						<div id='account_Extend' class='Extend' style='background-image:url(layout/images/global/general/minus.gif);'></div>
 					</div>
 				</div>
 			</span>
@@ -155,7 +161,7 @@
 						</span>
 						<div id='community_Icon' class='Icon' style='background-image:url(layout/images/global/menu/icon-community.gif);'></div>
 						<div id='community_Label' class='Label' style='background-image:url(layout/images/global/menu/label-community.gif);'></div>
-						<div id='community_Extend' class='Extend' style='background-image:url(layout/images/global/general/plus.gif);'></div>
+						<div id='community_Extend' class='Extend' style='background-image:url(layout/images/global/general/minus.gif);'></div>
 					</div>
 				</div>
 			</span>
@@ -253,7 +259,7 @@
 						</span>
 						<div id='library_Icon' class='Icon' style='background-image:url(layout/images/global/menu/icon-library.gif);'></div>
 						<div id='library_Label' class='Label' style='background-image:url(layout/images/global/menu/label-library.gif);'></div>
-						<div id='library_Extend' class='Extend' style='background-image:url(layout/images/global/general/plus.gif);'></div>
+						<div id='library_Extend' class='Extend' style='background-image:url(layout/images/global/general/minus.gif);'></div>
 					</div>
 				</div>
 			</span>
@@ -279,7 +285,7 @@
 						</span>
 						<div id='shops_Icon' class='Icon' style='background-image:url(layout/images/global/menu/icon-shops.gif);'></div>
 						<div id='shops_Label' class='Label' style='background-image:url(layout/images/global/menu/label-shops.gif);'></div>
-						<div id='shops_Extend' class='Extend' style='background-image:url(layout/images/global/general/plus.gif);'></div>
+						<div id='shops_Extend' class='Extend' style='background-image:url(layout/images/global/general/minus.gif);'></div>
 					</div>
 				</div>
 			</span>
