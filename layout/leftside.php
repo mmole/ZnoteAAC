@@ -306,9 +306,11 @@
 	</div>
 </div>
 <script>
-	CloseMenuItem('account');
-	CloseMenuItem('news');
-	CloseMenuItem('community');
-	CloseMenuItem('library');
-	CloseMenuItem('shops');
+	// TODO: Find a better method for doing this,
+	// and persist open/closed menus
+	OpenMenuItem('account');
+	OpenMenuItem('news');
+	OpenMenuItem('community');
+	OpenMenuItem('library');
+	OpenMenuItem('shops');
 </script>
