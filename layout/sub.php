@@ -22,6 +22,10 @@ $subpages = array(
 		// false means don't run this file instead of the regular file at website.com/blank.php
 		'override' => false
 	),
+	'login' => array(
+		'file' => 'login.php',
+		'override' => false
+	),
 	'houses' => array(
 		'file' => 'houses.php',
 		'override' => false
