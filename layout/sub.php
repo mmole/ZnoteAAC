@@ -34,5 +34,25 @@ $subpages = array(
 		'file' => 'downloads.php',
 		'override' => false
 	),
+	'news' => array(
+		'file' => 'index.php',
+		'override' => false
+	),
+	'charactersearch' => array(
+		'file' => 'charactersearch.php',
+		'override' => false
+	),
+	'highscore' => array(
+		'file' => 'highscore.php',
+		'override' => false
+	),
+	'loggedin' => array(
+		'file' => 'loggedin.php',
+		'override' => false
+	),
+	'recover' => array(
+		'file' => 'recover.php',
+		'override' => false
+	)
 );
 ?>
