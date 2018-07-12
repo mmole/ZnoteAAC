@@ -1,9 +1,3 @@
-<script>OpenMenuItem('account');</script>
-<script>OpenMenuItem('news');</script>
-<script>OpenMenuItem('community');</script>
-<script>OpenMenuItem('library');</script>
-<script>OpenMenuItem('shops');</script>
-
 <div id="MenuColumn">
 	<div id="LeftArtwork">             
 		<a href="sub.php?page=news" ><img id="TibiaLogoArtworkTop" src="layout/images/global/header/tibia-logo-artwork-top.gif" alt="logoartwork" /></a>
@@ -311,3 +305,10 @@
 		<div id='MenuBottom' style='background-image:url(layout/images/global/general/box-bottom.gif);'></div>
 	</div>
 </div>
+<script>
+	CloseMenuItem('account');
+	CloseMenuItem('news');
+	CloseMenuItem('community');
+	CloseMenuItem('library');
+	CloseMenuItem('shops');
+</script>
