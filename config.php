@@ -607,10 +607,7 @@
 	$config['cache_lifespan'] = 5;//60 * 15; // 15 minutes.
 
 	// WARNING! Account names written here will have admin access to web page!
-	$config['page_admin_access'] = array(
-		'firstaccountName',
-		'secondaccountName',
-	);
+	$config['page_admin_access'] = array('909090');
 
 	// Built-in FORUM
 	// Enable forum, enable guildboards, level to create threads/post in them
