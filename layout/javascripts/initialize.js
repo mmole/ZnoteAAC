@@ -56,16 +56,16 @@ function MouseOutLoginBoxText(source)
 function LoginButtonAction()
 {
   if(loginStatus == "false") {
-    window.location = LINK_ACCOUNT + "/?subtopic=accountmanagement";
+    window.location = LINK_ACCOUNT + "/myaccount.php";
   } else {
-    window.location = LINK_ACCOUNT + "/?subtopic=accountmanagement";
+    window.location = LINK_ACCOUNT + "/myaccount.php";
   }
 }
 function LoginstatusTextAction(source) {
   if(loginStatus == "false") {
-    window.location = LINK_ACCOUNT + "/?subtopic=createaccount";
+    window.location = LINK_ACCOUNT + "/register.php";
   } else {
-    window.location = LINK_ACCOUNT + "/?subtopic=accountmanagement&action=logout";
+    window.location = LINK_ACCOUNT + "/logout.php";
   }
 }
 
