@@ -44,23 +44,6 @@
 	$config['twoFactorAuthenticator'] = false;
 	// You can use the mobile phone app "authy" with this.
 
-	/* CLOCK FUNCTION
-		- getClock() = returns current time in numbers.
-		- getClock(time(), true) = returns current time in formatted date
-		- getClock(false, true) = same as above
-		- getClock(false, true, false) = get current time, don't adjust timezone 
-		- echo getClock($profile_data['lastlogin'], true); = from characterprofile,
-		explains when user was last logged in. */
-	function getClock($time = false, $format = false, $adjust = true) {
-		if ($time === false) $time = time();
-		// Date string representation
-		$date = "d F Y (H:i)"; // 15 July 2013 (13:50)
-		if ($adjust) $adjust = (1 * 3600); // Adjust to fit your timezone.
-		else $adjust = 0;
-		if ($format) return date($date, $time+$adjust);
-		else return $time+$adjust;
-	}
-
 	// ------------------- \\
 	// CUSTOM SERVER STUFF \\
 	// ------------------- \\
@@ -1000,4 +983,21 @@
 			'points' => 20,
 		),
 	);
+
+	/* CLOCK FUNCTION
+		- getClock() = returns current time in numbers.
+		- getClock(time(), true) = returns current time in formatted date
+		- getClock(false, true) = same as above
+		- getClock(false, true, false) = get current time, don't adjust timezone 
+		- echo getClock($profile_data['lastlogin'], true); = from characterprofile,
+		explains when user was last logged in. */
+		function getClock($time = false, $format = false, $adjust = true) {
+			if ($time === false) $time = time();
+			// Date string representation
+			$date = "d F Y (H:i)"; // 15 July 2013 (13:50)
+			if ($adjust) $adjust = (1 * 3600); // Adjust to fit your timezone.
+			else $adjust = 0;
+			if ($format) return date($date, $time+$adjust);
+			else return $time+$adjust;
+		}
 ?>
