@@ -56,16 +56,16 @@ function MouseOutLoginBoxText(source)
 function LoginButtonAction()
 {
   if(loginStatus == "false") {
-    window.location = LINK_ACCOUNT + "/myaccount.php";
+    window.location = "/myaccount.php";
   } else {
-    window.location = LINK_ACCOUNT + "/myaccount.php";
+    window.location = "/myaccount.php";
   }
 }
 function LoginstatusTextAction(source) {
   if(loginStatus == "false") {
-    window.location = LINK_ACCOUNT + "/register.php";
+    window.location = "/register.php";
   } else {
-    window.location = LINK_ACCOUNT + "/logout.php";
+    window.location = "/logout.php";
   }
 }
 
