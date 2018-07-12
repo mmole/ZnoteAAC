@@ -117,13 +117,13 @@ function InitializeMenu()
       document.getElementById(menuItemName+"_Submenu").style.visibility = "hidden";
       document.getElementById(menuItemName+"_Submenu").style.display = "none";
       document.getElementById(menuItemName+"_Lights").style.visibility = "visible";
-      document.getElementById(menuItemName+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/plus.gif)";
+      document.getElementById(menuItemName+"_Extend").style.backgroundImage = "url(" + IMAGES + "/global/general/plus.gif)";
     }
     else {
       document.getElementById(menuItemName+"_Submenu").style.visibility = "visible";
       document.getElementById(menuItemName+"_Submenu").style.display = "block";
       document.getElementById(menuItemName+"_Lights").style.visibility = "hidden";
-      document.getElementById(menuItemName+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/minus.gif)";
+      document.getElementById(menuItemName+"_Extend").style.backgroundImage = "url(" + IMAGES + "/global/general/minus.gif)";
     }
   }
 }
@@ -156,7 +156,7 @@ function OpenMenuItem(sourceId)
   document.getElementById(sourceId+"_Submenu").style.visibility = "visible";
   document.getElementById(sourceId+"_Submenu").style.display = "block";
   document.getElementById(sourceId+"_Lights").style.visibility = "hidden";
-  document.getElementById(sourceId+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/minus.gif)";
+  document.getElementById(sourceId+"_Extend").style.backgroundImage = "url(" + IMAGES + "/global/general/minus.gif)";
 }
 function CloseMenuItem(sourceId)
 {
@@ -164,7 +164,7 @@ function CloseMenuItem(sourceId)
   document.getElementById(sourceId+"_Submenu").style.visibility = "hidden";
   document.getElementById(sourceId+"_Submenu").style.display = "none";
   document.getElementById(sourceId+"_Lights").style.visibility = "visible";
-  document.getElementById(sourceId+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/plus.gif)";
+  document.getElementById(sourceId+"_Extend").style.backgroundImage = "url(" + IMAGES + "/global/general/plus.gif)";
 }
 
 // mouse-over effects of menubuttons and submenuitems
