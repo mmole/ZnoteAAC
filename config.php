@@ -29,13 +29,13 @@
 	// ------------------------ \\
 
 	// phpmyadmin username for OT server: (DONT USE "root" if ur hosting to public.).
-	$config['sqlUser'] = 'tfs13';
+	$config['sqlUser'] = 'root';
 
 	// phpmyadmin password for OT server:
-	$config['sqlPassword'] = 'tfs13';
+	$config['sqlPassword'] = '';
 
 	// The database name to connect to. (This is usually same as username).
-	$config['sqlDatabase'] = 'tfs13';
+	$config['sqlDatabase'] = 'tfs';
 
 	// Hostname is usually localhost or 127.0.0.1.
 	$config['sqlHost'] = '127.0.0.1';
