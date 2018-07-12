@@ -306,11 +306,6 @@
 	</div>
 </div>
 <script>
-	// TODO: Find a better method for doing this,
-	// and persist open/closed menus
-	OpenMenuItem('account');
-	OpenMenuItem('news');
-	OpenMenuItem('community');
-	OpenMenuItem('library');
 	OpenMenuItem('shops');
+	LoadMenu();
 </script>
